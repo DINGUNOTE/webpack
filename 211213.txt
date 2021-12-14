@@ -5,7 +5,7 @@
   - JS(minifiers(소스 압축 도구), linters(문법 검사 보조 도구), compile-to-js(babel 등 자바스크립트 컴파일 도구),    languages(언어 관련 도구), ...)
   - CSS(SASS, LESS, UNCSS, POSTCSS, ... CSS전처리기 등 관련 도구)
   - ASSETS(GIFSICLE, PNGCRUSH, JPEGTRAN, SVGO, ... 이미지 압축화 및 최적화 도구)
-  - 웹팩, GRUNT, GULP, ETC... (모듈 번들러)
+  - GRUNT, GULP, ETC... (모듈 번들러)
 
 # 웹팩에서의 모듈
 * HTML ,CSS, Javascript, images, Font 등 많은 파일 하나하나가 모두 모듈이다.
@@ -14,3 +14,5 @@
 1. 파일 단위의 자바스크립트 모듈 관리의 필요성
 2. 웹 개발 작업 자동화 도구 (Web Task Manager)
 3. 웹 애플리케이션의 빠른 로딩 속도와 높은 성능
+  - 웹팩은 기본적으로 필요한 자원은 미리 로딩하는 게 아니라 그 때 그 때 요청하자는 철학을 갖고 있다.
+
