@@ -1,0 +1,6 @@
+# 웹팩 loaders, plugins
+* https://webpack.js.org/loaders/
+
+# 웹펙 데브 서버(Webpack Dev Server)가 필요한 이유
+* 코드 하나 하나가 바뀔 때 마다 다시 빌드해야 하는 불편함을 해결할 수 있다.
+ 
